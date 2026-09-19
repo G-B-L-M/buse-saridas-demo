@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[22016,["/buse-saridas-demo/_next/static/chunks/3fntmmi971322.js","/buse-saridas-demo/_next/static/chunks/0axdrs6tow-4n.js"],""]
+3:I[97367,["/buse-saridas-demo/_next/static/chunks/3fntmmi971322.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[97367,["/buse-saridas-demo/_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
+9:I[97367,["/buse-saridas-demo/_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
+:HL["/buse-saridas-demo/_next/static/chunks/0uubi6wo9o_j3.css","style"]
+7:X
+24:X
+24:C
+0:{"buildId":"D19LrkrNOzBxOkXlh2XYk","data":[{"rsc":["$","$1","c",{"children":[[["$","header",null,{"className":"LegalPage-module__jXgtnq__header","children":["$","$L2",null,{"className":"LegalPage-module__jXgtnq__back","href":"/","children":"← Buse Sarıdaş"}]}],["$","main",null,{"className":"LegalPage-module__jXgtnq__main","children":["$","article",null,{"className":"LegalPage-module__jXgtnq__article","children":[["$","h1",null,{"className":"LegalPage-module__jXgtnq__title","children":"Demo ve veri işleme bilgisi"}],["$","p",null,{"className":"LegalPage-module__jXgtnq__intro","children":"Bu sayfa bir tasarım demosunun bilgilendirme metnidir; nihai KVKK aydınlatma metni değildir."}],[["$","section","Tasarım incelemesi",{"className":"LegalPage-module__jXgtnq__section","children":[["$","h2",null,{"children":"Tasarım incelemesi"}],[["$","p","Bu site, Buse Sarıdaş için hazırlanan bir tasarım demosudur. Metinler, yazılar ve hizmet bilgileri nihai değerlendirme aşamasındadır. Kesin hizmet veya ücret bilgisi olarak kullanılmamalıdır.",{"children":"Bu site, Buse Sarıdaş için hazırlanan bir tasarım demosudur. Metinler, yazılar ve hizmet bilgileri nihai değerlendirme aşamasındadır. Kesin hizmet veya ücret bilgisi olarak kullanılmamalıdır."}]],null]}],["$","section","Demo formlar",{"className":"LegalPage-module__jXgtnq__section","children":[["$","h2",null,{"children":"Demo formlar"}],[["$","p","Geri arama, e-posta ve bülten formları yalnızca arayüzü göstermek içindir. Bu alanlara yazılan bilgiler gönderilmez veya uygulamada kaydedilmez. Lütfen gerçek kişisel bilgi girmeyin.",{"children":"Geri arama, e-posta ve bülten formları yalnızca arayüzü göstermek içindir. Bu alanlara yazılan bilgiler gönderilmez veya uygulamada kaydedilmez. Lütfen gerçek kişisel bilgi girmeyin."}]],null]}],["$","section","Barındırma ve dış bağlantılar",{"className":"LegalPage-module__jXgtnq__section","children":[["$","h2",null,{"children":"Barındırma ve dış bağlantılar"}],[["$","p","Demo GitHub Pages üzerinde barındırılır. Barındırma sağlayıcısı kendi politikaları kapsamında teknik erişim kayıtları işleyebilir. Bu uygulamaya analitik veya reklam takip aracı eklenmemiştir. WhatsApp ve LinkedIn bağlantıları ilgili dış platformlara gider.",{"children":"Demo GitHub Pages üzerinde barındırılır. Barındırma sağlayıcısı kendi politikaları kapsamında teknik erişim kayıtları işleyebilir. Bu uygulamaya analitik veya reklam takip aracı eklenmemiştir. WhatsApp ve LinkedIn bağlantıları ilgili dış platformlara gider."}]],null]}],["$","section","Nihai site",{"className":"LegalPage-module__jXgtnq__section","children":[["$","h2",null,{"children":"Nihai site"}],[["$","p","Canlı iletişim, içerik yönetimi ve diğer veri işleme işlevleri açılmadan önce kullanım koşulları ve gizlilik metinleri gerçek işleyişe göre ayrıca hazırlanacaktır.",{"children":"Canlı iletişim, içerik yönetimi ve diğer veri işleme işlevleri açılmadan önce kullanım koşulları ve gizlilik metinleri gerçek işleyişe göre ayrıca hazırlanacaktır."}]],null]}]],["$","p",null,{"className":"LegalPage-module__jXgtnq__updated","children":"Son güncelleme: 31.08.2026"}]]}]}]],[["$","link","0",{"rel":"stylesheet","href":"/buse-saridas-demo/_next/static/chunks/0uubi6wo9o_j3.css","precedence":"next"}],["$","script","script-0",{"src":"/buse-saridas-demo/_next/static/chunks/0axdrs6tow-4n.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#F5F0EB"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Demo ve veri işleme bilgisi"}],"$La","$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f"]}]}]}],"$L20"]}],"isPartial":"$@21","staleTime":"$7","varyParams":null},{"rsc":"$L22","isPartial":"$@23","staleTime":"$7","varyParams":"$24"},{"rsc":"$L25","isPartial":"$@26","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@27","rootVaryParams":null,"needsRuntimeRequest":"$@28"}
+29:I[27201,["/buse-saridas-demo/_next/static/chunks/3fntmmi971322.js"],"IconMark"]
+2a:I[39756,["/buse-saridas-demo/_next/static/chunks/3fntmmi971322.js"],"default"]
+2b:I[37457,["/buse-saridas-demo/_next/static/chunks/3fntmmi971322.js"],"default"]
+:HL["/buse-saridas-demo/_next/static/chunks/3xrg8_ubjtes8.css","style"]
+:HL["/buse-saridas-demo/_next/static/chunks/3cqfelgjt1ne9.css","style"]
+5:null
+a:["$","meta","1",{"name":"description","content":"Tasarım demosunun kapsamı."}]
+b:["$","meta","2",{"name":"robots","content":"noindex, nofollow"}]
+c:["$","link","3",{"rel":"canonical","href":"https://g-b-l-m.github.io/buse-saridas-demo/kvkk/"}]
+d:["$","meta","4",{"property":"og:title","content":"Demo | Psikolojik Danışman Buse Sarıdaş"}]
+e:["$","meta","5",{"property":"og:description","content":"Kendinizi güvenle anlatabileceğiniz bir alan. Psikolojik danışman Buse Sarıdaş ile online bireysel danışma ve LGS–YKS eğitim danışmanlığı."}]
+f:["$","meta","6",{"property":"og:url","content":"https://g-b-l-m.github.io/buse-saridas-demo/"}]
+10:["$","meta","7",{"property":"og:site_name","content":"Psikolojik Danışman Buse Sarıdaş"}]
+11:["$","meta","8",{"property":"og:locale","content":"tr_TR"}]
+12:["$","meta","9",{"property":"og:image","content":"https://g-b-l-m.github.io/buse-saridas-demo/buse-saridas-demo/opengraph-image.jpg?opengraph-image.3xak_qgkb3zq_.jpg"}]
+13:["$","meta","10",{"property":"og:image:type","content":"image/jpeg"}]
+14:["$","meta","11",{"property":"og:image:width","content":"1200"}]
+15:["$","meta","12",{"property":"og:image:height","content":"630"}]
+16:["$","meta","13",{"property":"og:type","content":"website"}]
+17:["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}]
+18:["$","meta","15",{"name":"twitter:title","content":"Demo | Psikolojik Danışman Buse Sarıdaş"}]
+19:["$","meta","16",{"name":"twitter:description","content":"Kendinizi güvenle anlatabileceğiniz bir alan. Psikolojik danışman Buse Sarıdaş ile online bireysel danışma ve LGS–YKS eğitim danışmanlığı."}]
+1a:["$","meta","17",{"name":"twitter:image","content":"https://g-b-l-m.github.io/buse-saridas-demo/buse-saridas-demo/opengraph-image.jpg?opengraph-image.3xak_qgkb3zq_.jpg"}]
+1b:["$","meta","18",{"name":"twitter:image:type","content":"image/jpeg"}]
+1c:["$","meta","19",{"name":"twitter:image:width","content":"1200"}]
+1d:["$","meta","20",{"name":"twitter:image:height","content":"630"}]
+1e:["$","link","21",{"rel":"icon","href":"/buse-saridas-demo/icon.svg?icon.27sjdxy60r3bu.svg","sizes":"any","type":"image/svg+xml"}]
+1f:["$","$L29","22",{}]
+20:["$","meta",null,{"name":"next-size-adjust","content":""}]
+22:["$","$1","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","template":["$","$L2b",null,{}]}]]}]
+25:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/buse-saridas-demo/_next/static/chunks/3xrg8_ubjtes8.css","precedence":"next"}],["$","script","script-0",{"src":"/buse-saridas-demo/_next/static/chunks/3fntmmi971322.js","async":true}]],["$","html",null,{"lang":"tr","className":"inter_b4f07466-module__iHWucW__variable lora_dd1973b6-module__WPNCkG__variable","children":["$","body",null,{"children":["$","$L2a",null,{"parallelRouterKey":"children","template":["$","$L2b",null,{}],"notFound":[["$","main",null,{"className":"HomeScenes-module__dRElRq__home HomeEditorial-module__ONnqwq__notFound","children":[["$","$L2",null,{"className":"HomeEditorial-module__ONnqwq__articleBrand","href":"/","children":"Buse Sarıdaş"}],["$","div",null,{"children":[["$","p",null,{"className":"HomeEditorial-module__ONnqwq__label","children":"404 · Sayfa bulunamadı"}],["$","h1",null,{"children":["Burada bir sayfa yok.",["$","br",null,{}],"Yeni bir yerden başlayabiliriz."]}],["$","p",null,{"children":"Bağlantı değişmiş veya adres eksik yazılmış olabilir."}],["$","nav",null,{"aria-label":"Devam etmek için","children":[["$","$L2",null,{"className":"HomeEditorial-module__ONnqwq__articleCta","href":"/","children":"Ana sayfaya dön ↗"}],["$","$L2",null,{"className":"HomeEditorial-module__ONnqwq__articleCta","href":"/yazilar","children":"Yazılara göz at ↗"}]]}]]}]]}],[["$","link","0",{"rel":"stylesheet","href":"/buse-saridas-demo/_next/static/chunks/3cqfelgjt1ne9.css","precedence":"next"}]]]}]}]}]]}]
+7:300
+28:true
+7:C
+27:0
+21:"$undefined"
+23:"$undefined"
+26:"$undefined"
+6:"$undefined"

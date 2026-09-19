@@ -1,0 +1,8 @@
+:HL["/buse-saridas-demo/_next/static/chunks/3xrg8_ubjtes8.css","style"]
+:HL["/buse-saridas-demo/_next/static/media/inter_400-s.p.1jhspmpenf7_w.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/buse-saridas-demo/_next/static/media/inter_500-s.p.1zhm8x_tlz8r3.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/buse-saridas-demo/_next/static/media/inter_600-s.p.06_ydda4djqbi.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/buse-saridas-demo/_next/static/media/lora_italic-s.p.09_etr43t2ccs.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/buse-saridas-demo/_next/static/media/lora_regular-s.p.3y-9ylcr7mj3g.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/buse-saridas-demo/_next/static/chunks/3cqfelgjt1ne9.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"yazilar","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"hayir-demek-iliskiyi-bitirmez","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"D19LrkrNOzBxOkXlh2XYk"}

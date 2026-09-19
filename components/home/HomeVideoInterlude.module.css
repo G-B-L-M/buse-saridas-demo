@@ -1,0 +1,28 @@
+.scene { padding:0 var(--edge) 56px; background:var(--journey-paper); }
+.film { position:relative; isolation:isolate; max-width:1160px; min-height:570px; margin:auto; overflow:hidden; border-radius:20px; background:#193b40; color:#fff8ec; }
+.video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:50% 74%; z-index:-1; }
+.film::after { content:""; position:absolute; inset:0; z-index:-1; pointer-events:none; background:linear-gradient(180deg,rgb(10 27 29 / .32),transparent 65%); }
+.copy { display:flex; flex-direction:column; align-items:center; padding:64px 40px 150px; text-align:center; }
+.copy h2 { margin:0 0 26px; max-width:28ch; font:400 clamp(36px,3.65vw,55px)/1.18 var(--font-serif); letter-spacing:-.04em; text-wrap:balance; text-shadow:0 2px 16px rgb(10 28 30 / .2); }
+.copy h2 span,.copy h2 em { display:block; }
+.copy h2 em { font-style:normal; color:#fff8ec; }
+.glass { display:inline-flex; align-items:center; justify-content:center; gap:20px; min-height:48px; padding:12px 23px; border:1px solid rgb(255 248 236 / .55); border-radius:999px; background:rgb(20 39 40 / .7); backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px); color:#fff8ec; font-size:13px; line-height:1.5; transition:background .2s; }
+.glass:hover { background:rgb(20 39 40 / .9); }
+.playback { position:absolute; left:24px; bottom:22px; display:inline-flex; align-items:center; gap:9px; min-height:44px; padding:9px 15px; border:1px solid rgb(255 248 236 / .45); border-radius:999px; background:rgb(20 30 27 / .82); color:#fff8ec; font-size:12px; cursor:pointer; }
+.playback > span { font-size:17px; }
+.playback:disabled { cursor:default; }
+.note { position:absolute; right:26px; bottom:36px; font-size:10px; color:#fff8ec; padding:3px 7px; background:rgb(20 30 27 / .7); border-radius:4px; }
+.film .glass:focus-visible,.film .playback:focus-visible { outline:2px solid #fff8ec; outline-offset:5px; }
+@media(max-width:899px) { .film { min-height:510px; } .copy { padding-top:52px; } .copy h2 { font-size:40px; } }
+@media(max-width:599px) {
+ .scene { padding:0 6vw 30px; }
+ .film { min-height:500px; border-radius:16px; }
+ .video { object-position:44% bottom; }
+ .copy { padding:40px 20px 150px; }
+ .copy h2 { font-size:clamp(28px,7vw,36px); line-height:1.2; }
+ .glass { padding:11px 17px; gap:14px; font-size:12px; }
+ .playback { left:16px; bottom:16px; font-size:11px; }
+ .note { right:16px; bottom:29px; font-size:9px; }
+}
+@media(prefers-reduced-transparency:reduce) { .glass { background:#233d3e; backdrop-filter:none; } }
+@media(prefers-reduced-motion:reduce) { .glass { transition:none; } }

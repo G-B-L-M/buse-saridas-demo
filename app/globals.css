@@ -1,0 +1,148 @@
+:root {
+  /* Krem ve pudra yüzeyler, gül vurgu, sıcak espresso koyusu. Koyu zeminler
+     eskiden orman yeşiliydi; fotoğrafların sepya sıcaklığıyla ve gül vurguyla
+     çakıştığı için sıcak kahveye çevrildi. */
+  --paper: #f5f0eb;
+  --blush: #f9f4f4;
+  --cream: #f9efe5;
+  --espresso: #241f1c;
+  /** Koyu zeminlerdeki gradyan ve örtüler için aynı rengin RGB kanalları. */
+  --espresso-rgb: 36 31 28;
+  --rose: #a55a5a;
+  --rose-ink: #783d3d;
+  --warm-white: var(--paper);
+  --warm-white-raised: #ffffff;
+  --stone: #ded9d5;
+  --stone-deep: #cdc4bb;
+  --charcoal: #010205;
+  --charcoal-soft: #303635;
+  --grey: #565e69;
+  --grey-light: #ded5cd;
+  --accent: var(--rose);
+  --accent-hover: var(--rose-ink);
+  --intro-ground: var(--espresso);
+  --font-serif: var(--font-lora), Georgia, serif;
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --measure: 62ch;
+  --gutter: clamp(1.25rem, 5vw, 6rem);
+  --section-gap: clamp(6rem, 14vh, 12rem);
+
+  /* Sinematik bolumlerin scroll bedeli. Koreografi normalize ilerleme (0-1)
+     okur; yukseklik degisince hicbir sahne kisalmaz, yalnizca ayni sahneyi
+     gormek icin gereken parmak mesafesi degisir. Onceki degerler 460vh/440vh
+     idi ve mobilde Buse'ye kadar ~19 ekran ediyordu. */
+  --intro-scroll: 300vh;
+  --recognition-scroll: 320vh;
+
+  --ease-quiet: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* Dar ekranda ayni ilerleme daha az parmak mesafesiyle katedilir; svh adres
+   cubugu acilip kapandiginda sahneyi yeniden olcmez. */
+@media (max-width: 1023px) {
+  :root {
+    --intro-scroll: 260svh;
+    --recognition-scroll: 300svh;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--warm-white);
+  color: var(--charcoal);
+  font-family: var(--font-sans);
+  font-size: clamp(1rem, 0.96rem + 0.2vw, 1.0625rem);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* "hidden" body'yi kaydırma kabına çevirir ve dokunmatikte içteki yatay
+     şeridin jestiyle çakışır. "clip" taşmayı aynı şekilde keser ama kap
+     oluşturmaz. */
+  overflow-x: clip;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.012em;
+  margin: 0;
+  text-wrap: balance;
+}
+
+p {
+  margin: 0;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+/* currentColor: hem koyu giriş sahnesinde hem açık zeminde görünür kalır. */
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+/* Bölüm girişi. Gizleme yalnızca JS devraldıktan (data-reveal-root="armed")
+   sonra uygulanır; script gelmezse içerik olduğu gibi okunur kalır. */
+[data-reveal-root] [data-reveal] {
+  transition: opacity 0.7s var(--ease-quiet), transform 0.7s var(--ease-quiet);
+}
+
+[data-reveal-root="armed"] [data-reveal] {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+[data-reveal-root="in"] [data-reveal] {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal-root] [data-reveal] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

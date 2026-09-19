@@ -1,0 +1,31 @@
+.journey {
+  --journey-paper: #fbf8f4;
+  --journey-soft: #f0ebe5;
+  --journey-card: #fffdf9;
+  --journey-line: #d9cec3;
+  --ink: #342d29;
+  --brown: #342d29;
+  --muted: #6f655d;
+  --rose: #965b60;
+  --rose-ink: #82474d;
+  --stone: #d9cec3;
+  --ivory: #fbf8f4;
+  background: var(--journey-paper);
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+.journey :is(button, input, select) { font-family: var(--font-sans); }
+.journey :is(a, button, summary):focus-visible { outline: 2px solid var(--rose-ink); outline-offset: 5px; }
+.journey [data-cinema-frame] { overflow: hidden; }
+@media (prefers-reduced-motion: no-preference) {
+  .journey a > svg, .journey a > span[aria-hidden="true"]:last-child { transition: transform .25s ease; }
+  .journey a:focus-visible > svg, .journey a:focus-visible > span[aria-hidden="true"]:last-child { transform: translate(2px,-2px); }
+  .journey details[open] > :not(summary) { animation: detail-settle .28s ease-out; }
+  @media (hover: hover) and (pointer: fine) {
+    .journey a:hover > svg, .journey a:hover > span[aria-hidden="true"]:last-child { transform: translate(2px,-2px); }
+  }
+}
+@keyframes detail-settle { from { opacity: .75; transform: translateY(5px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .journey [data-calm-heading], .journey [data-calm-item] { opacity: 1; transform: none; }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Buse Sarıdaş">
+  <rect width="64" height="64" rx="12" fill="#a55a5a" />
+  <g transform="translate(4 4) scale(.56)" fill="none" stroke="#f9efe5" stroke-width="4" stroke-linecap="round">
+    <path d="M78 18C49 0 14 22 17 58C20 90 59 100 82 78" />
+    <path d="M72 33C52 20 32 31 33 56C34 75 54 84 69 70" />
+    <path d="M64 46C54 39 47 44 47 54C47 63 56 66 61 61" />
+  </g>
+</svg>

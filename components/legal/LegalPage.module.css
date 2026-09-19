@@ -1,0 +1,68 @@
+.header {
+  padding: clamp(1.5rem, 4vh, 2.5rem) var(--gutter);
+  border-bottom: 1px solid var(--stone-deep);
+}
+
+.back {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.back:hover {
+  color: var(--accent);
+}
+
+.main {
+  padding: clamp(3rem, 9vh, 6rem) var(--gutter) clamp(5rem, 12vh, 8rem);
+}
+
+.article {
+  width: min(100%, 44rem);
+  margin-inline: auto;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 3.25rem);
+}
+
+.intro {
+  margin-top: 1.75rem;
+  color: var(--grey);
+  font-size: 1.05rem;
+}
+
+.section {
+  margin-top: clamp(2.25rem, 5vh, 3.25rem);
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  font-size: clamp(1.15rem, 1.8vw, 1.4rem);
+}
+
+.section p {
+  margin-bottom: 0.9rem;
+  color: var(--charcoal-soft);
+  text-wrap: pretty;
+}
+
+.section ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.15rem;
+  display: grid;
+  gap: 0.5rem;
+  color: var(--charcoal-soft);
+}
+
+.updated {
+  margin-top: clamp(3rem, 7vh, 4.5rem);
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--stone-deep);
+  color: var(--grey);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+}

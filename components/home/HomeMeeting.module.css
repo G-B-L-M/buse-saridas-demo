@@ -1,0 +1,21 @@
+.meeting { padding:64px var(--edge) 100px; color:var(--ink); background:var(--journey-paper); }
+.header { max-width:760px; margin:0 auto 52px; text-align:center; }
+.header h2 { font:400 clamp(34px,3.7vw,54px)/1.2 var(--font-serif); letter-spacing:-.04em; }
+.body { display:grid; grid-template-columns:minmax(0,.95fr) minmax(0,1fr); gap:clamp(40px,7vw,104px); align-items:center; max-width:1020px; margin:auto; }
+.photo { min-width:0; }
+.stage { position:relative; aspect-ratio:1.1; overflow:hidden; background:var(--stone); border-radius:12px; }
+.stage img { object-fit:cover; object-position:50% 50%; }
+.photo figcaption { margin-top:10px; font-size:10px; line-height:1.5; color:var(--muted); text-align:right; }
+.steps { margin:0; padding:0; list-style:none; display:grid; gap:32px; }
+.step { position:relative; display:grid; grid-template-columns:minmax(44px,max-content) minmax(0,1fr); gap:20px; }
+.number { position:relative; z-index:1; display:grid; place-items:center; align-self:start; min-width:44px; min-height:44px; padding:6px; border:1px solid var(--journey-line); border-radius:50%; background:var(--journey-paper); font:400 20px/1.4 var(--font-serif); color:var(--rose-ink); font-variant-numeric:tabular-nums; white-space:nowrap; transition:color .35s,background-color .35s,border-color .35s; }
+.connector { position:absolute; top:53px; bottom:-23px; left:21px; width:2px; background:var(--journey-line); }
+.connector > span { display:block; height:100%; background:var(--rose); transform-origin:top; }
+.step:last-child .connector { display:none; }
+.step[data-reached="true"] .number { border-color:var(--rose); background:var(--rose); color:#fff; }
+.step[data-reached="true"] h3 { color:var(--rose-ink); }
+.step h3 { font:500 20px/1.4 var(--font-sans); letter-spacing:-.03em; }
+.step p { margin-top:10px; max-width:38ch; color:var(--muted); font-size:15px; line-height:1.8; }
+@media(max-width:899px) { .meeting { padding-block:54px 76px; } .body { gap:36px; } .steps { gap:25px; } .step { gap:14px; } .connector { bottom:-16px; } .step h3 { font-size:18px; } .step p { font-size:14px; } }
+@media(max-width:699px) { .meeting { padding:44px 6vw 64px; } .header { margin-bottom:30px; } .header h2 { font-size:34px; } .body { grid-template-columns:minmax(0,1fr); gap:32px; } .stage { aspect-ratio:1.5; } .steps { gap:28px; } .step h3 { font-size:19px; } }
+@media(prefers-reduced-motion:reduce) { .number { transition:none; } }

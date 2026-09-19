@@ -1,0 +1,50 @@
+.questions { padding:64px var(--edge) 84px; background:var(--journey-paper); text-align:center; }
+.questions h2 { font:400 clamp(34px,3.4vw,50px)/1.2 var(--font-serif); letter-spacing:-.04em; }
+.answers { max-width:760px; margin:38px auto 0; text-align:left; }
+.answers details { border-bottom:1px solid var(--journey-line); }
+.answers summary { display:flex; align-items:center; justify-content:space-between; gap:24px; min-height:76px; padding:22px 0; list-style:none; cursor:pointer; font-size:17px; line-height:1.6; font-weight:500; letter-spacing:-.015em; }
+.answers summary::-webkit-details-marker { display:none; }
+.answers summary > span { position:relative; width:22px; height:22px; flex:none; color:var(--rose); }
+.answers summary > span::before,.answers summary > span::after { content:""; position:absolute; top:10px; left:4px; width:14px; height:1px; background:currentColor; }
+.answers summary > span::after { transform:rotate(90deg); transition:transform .2s; }
+.answers details[open] summary > span::after { transform:none; }
+.answers p { max-width:62ch; padding:0 36px 25px 0; color:var(--muted); font-size:15px; line-height:1.8; }
+.questionLink { display:inline-flex; align-items:center; gap:18px; min-height:44px; margin-top:26px; color:var(--rose-ink); font-size:13px; }
+.questionLink:hover { text-decoration:underline; text-underline-offset:4px; }
+.footer { padding:52px var(--edge) 22px; background:var(--journey-soft); color:var(--ink); }
+.footerTop,.footerMiddle,.footerBottom { max-width:1160px; margin-inline:auto; }
+.footerTop { display:flex; align-items:center; justify-content:space-between; gap:32px; }
+.brand { display:inline-block; font:italic 400 35px/1.3 var(--font-serif); letter-spacing:-.05em; }
+.title { margin-top:7px; font-size:11px; color:var(--muted); }
+.footer nav { display:flex; align-items:center; flex-wrap:wrap; gap:8px 24px; }
+.footer nav a { display:inline-flex; align-items:center; gap:8px; min-height:44px; font-size:12px; }
+.footer a:hover { text-decoration:underline; text-underline-offset:5px; }
+.footerMiddle { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:48px; align-items:start; margin-top:32px; padding-block:20px; border-block:1px solid var(--journey-line); }
+.newsletter { max-width:480px; min-width:0; }
+.newsletter summary { display:flex; align-items:center; justify-content:space-between; gap:24px; min-height:44px; list-style:none; cursor:pointer; font-size:14px; }
+.newsletter summary::-webkit-details-marker { display:none; }
+.newsletter summary > span { font-size:22px; transition:transform .2s; }
+.newsletter[open] summary > span { transform:rotate(45deg); }
+.newsletterBody { padding:18px 0; }
+.newsletterBody > p { margin-bottom:20px; color:var(--muted); font-size:13px; line-height:1.8; }
+.newsletterBody .unsubscribe { margin:15px 0 0; font-size:11px; }
+.footerBottom { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px 28px; padding-top:18px; color:var(--muted); font-size:11px; }
+.footerBottom nav a { font-size:11px; }
+.footerBottom > a { display:inline-flex; align-items:center; min-height:44px; }
+@media(max-width:899px) { .questions { padding-block:50px 68px; } .footerTop { align-items:flex-start; } .footerTop nav { max-width:270px; justify-content:flex-end; } }
+@media(max-width:599px) {
+ .questions { padding:48px 6vw 58px; }
+ .questions h2 { font-size:33px; }
+ .answers { margin-top:25px; }
+ .answers summary { min-height:70px; font-size:15px; gap:20px; padding-block:18px; }
+ .answers p { font-size:14px; padding-right:15px; }
+ .questionLink { font-size:12px; gap:10px; }
+ .footer { padding:40px 6vw 20px; }
+ .footerTop { flex-direction:column; gap:18px; }
+ .footerTop nav { max-width:none; justify-content:flex-start; gap:2px 20px; }
+ .brand { font-size:32px; }
+ .footerMiddle { grid-template-columns:minmax(0,1fr); gap:12px; margin-top:20px; padding-block:16px; }
+ .footerBottom { gap:4px 20px; }
+ .footerBottom nav { order:3; width:100%; gap:5px 18px; }
+}
+@media(prefers-reduced-motion:reduce) { .answers summary > span::after,.newsletter summary > span { transition:none; } }
