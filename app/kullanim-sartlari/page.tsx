@@ -5,7 +5,7 @@ import { terms } from "@/data/legal";
 export const metadata: Metadata = {
   title: terms.title,
   description: terms.description,
-  alternates: { canonical: "/kullanim-sartlari" },
+  alternates: { canonical: "/buse-saridas-demo/kullanim-sartlari" },
 };
 
 export default function Page() {

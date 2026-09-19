@@ -5,7 +5,7 @@ import { privacy } from "@/data/legal";
 export const metadata: Metadata = {
   title: privacy.title,
   description: privacy.description,
-  alternates: { canonical: "/gizlilik" },
+  alternates: { canonical: "/buse-saridas-demo/gizlilik" },
 };
 
 export default function Page() {

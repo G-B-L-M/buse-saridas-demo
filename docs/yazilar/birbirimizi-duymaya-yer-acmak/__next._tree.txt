@@ -5,4 +5,4 @@
 :HL["/buse-saridas-demo/_next/static/media/lora_italic-s.p.09_etr43t2ccs.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/buse-saridas-demo/_next/static/media/lora_regular-s.p.3y-9ylcr7mj3g.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/buse-saridas-demo/_next/static/chunks/3cqfelgjt1ne9.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"yazilar","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"birbirimizi-duymaya-yer-acmak","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"D19LrkrNOzBxOkXlh2XYk"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"yazilar","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"birbirimizi-duymaya-yer-acmak","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"gjdUFWsBU5I_2Hm0kkBkB"}

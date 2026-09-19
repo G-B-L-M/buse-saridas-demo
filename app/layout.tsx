@@ -28,14 +28,14 @@ const description =
   "Kendinizi güvenle anlatabileceğiniz bir alan. Psikolojik danışman Buse Sarıdaş ile online bireysel danışma ve LGS–YKS eğitim danışmanlığı.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(new URL(siteUrl).origin),
   title: `Demo | ${site.documentHeading}`,
   description,
-  alternates: { canonical: "/" },
+  alternates: { canonical: "/buse-saridas-demo/" },
   openGraph: {
     type: "website",
     locale: "tr_TR",
-    url: "/",
+    url: "/buse-saridas-demo/",
     siteName: site.documentHeading,
     title: `Demo | ${site.documentHeading}`,
     description,

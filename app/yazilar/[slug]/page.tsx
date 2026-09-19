@@ -11,7 +11,7 @@ export function generateStaticParams() { return journal.map(({slug})=>({slug}));
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const {slug}=await params; const item=journal.find(entry=>entry.slug===slug);
   if (!item) return {};
-  return { title: `${item.title} | ${site.name}`, description: item.excerpt, alternates:{canonical:`/yazilar/${slug}`} };
+  return { title: `${item.title} | ${site.name}`, description: item.excerpt, alternates:{canonical:`/buse-saridas-demo/yazilar/${slug}`} };
 }
 export default async function JournalArticle({ params }: { params: Promise<{slug:string}> }) {
   const {slug}=await params; const item=journal.find(entry=>entry.slug===slug);

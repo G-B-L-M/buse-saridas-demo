@@ -5,7 +5,7 @@ import { kvkk } from "@/data/legal";
 export const metadata: Metadata = {
   title: kvkk.title,
   description: kvkk.description,
-  alternates: { canonical: "/kvkk" },
+  alternates: { canonical: "/buse-saridas-demo/kvkk" },
 };
 
 export default function Page() {

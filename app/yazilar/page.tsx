@@ -8,7 +8,7 @@ import styles from "@/components/home/HomeEditorial.module.css";
 export const metadata = {
   title: "Küçük notlar | Buse Sarıdaş",
   description: "Gündelik deneyimler, ilişkiler ve bir başlangıca yer açmak üzerine kısa notlar.",
-  alternates: { canonical: "/yazilar" },
+  alternates: { canonical: "/buse-saridas-demo/yazilar" },
 };
 export default function JournalIndex() {
   return <div className={`${home.home} ${styles.articlePage}`}>
